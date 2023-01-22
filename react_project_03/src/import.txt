@@ -1,0 +1,4 @@
+command "npm install react-scroll" and "npm install @heroicons/react/outline"
+npm install @heroicons/react
+npm install -D tailwindcss
+npm install react-icons --save
