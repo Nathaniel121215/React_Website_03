@@ -15,7 +15,7 @@ const Analytics = () => {
                 <b>Atty. Anacleto Sampang Jr.</b> is a private legal practitioner in wide practice areas in the legal profession. 
                 Currently a Senior Lawyer at The Law Firm of Casauay Coloma Francisco Estrellado & Associates, a full service law firm, 
                 he has earned for himself an extensive litigation and legal documentation experience in different areas of law such as criminal law, 
-                civil law, labor law, etc.
+                civil law, labor law, and etc.
                 </div>
 
                 <button className='bg-[#cc4839] py-3 w-[200px] rounded-md font-bold my-6 mx-auto md:mx-0 text-white hover:-translate-y-3 ease-in-out duration-500'>Learn More</button>

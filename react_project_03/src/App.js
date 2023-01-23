@@ -6,10 +6,15 @@ import Support from "./components/Support";
 import Pricing from "./components/Pricing";
 import Newsletter from "./components/Newsletter";
 import FQA from "./components/FQA";
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Login from "./components/Login";
 function App() {
   return (
     <div>
+      <MessengerCustomerChat
+    pageId="211853206042532"
+    appId="859517748662771"
+  />
       <Navbar/>
       <Hero/>
       <Analytics/>

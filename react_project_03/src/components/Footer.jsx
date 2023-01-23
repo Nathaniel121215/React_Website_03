@@ -13,32 +13,30 @@ const Footer = () => {
     <div className='w-full  text-black py-9 px-4'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             <div>
-                <h6 className='font-bold uppercase py-2'>Solutions</h6>
+                <h6 className='font-bold uppercase py-2'>Navigation</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                    <li className='py-1'>Home</li>
+                    <li className='py-1'>About Us</li>
+                    <li className='py-1'>Our Programs</li>
+                    <li className='py-1'>FQA</li>
+                    <li className='py-1'>Pricing</li>
                 </ul>
             </div>
             <div>
                 <h6 className='font-bold uppercase py-2'>Support</h6>
                 <ul>
-                    <li className='py-1'>Pricing</li>
-                    <li className='py-1'>Documentation</li>
+                    <li className='py-1'>Contact Us</li>
                     <li className='py-1'>Guides</li>
-                    <li className='py-1'>API Status</li>
+                    <li className='py-1'>Address</li>
                 </ul>
             </div>
             <div>
                 <h6 className='font-bold uppercase py-2'>Company</h6>
                 <ul>
-                    <li className='py-1'>About</li>
-                    <li className='py-1'>Blog</li>
-                    <li className='py-1'>Jobs</li>
-                    <li className='py-1'>Press</li>
                     <li className='py-1'>Partners</li>
+                    <li className='py-1'>Jobs</li>
+                    <li className='py-1'>Personel</li>
+                    <li className='py-1'>Team</li>
                 </ul>
             </div>
             <div>
@@ -71,6 +69,8 @@ const Footer = () => {
             <FaGithub className='hover:-translate-y-3 ease-in-out duration-500'/>
         </div>
         </div>
+
+        
     </div>
   )
 }
