@@ -61,8 +61,8 @@ const Navbar = () => {
       </ul>
     </div>
 
-    <Modal  isOpen={modalIsOpen} className="bg-[#00000086] w-full h-full flex justify-center items-center">
-      <div className='bg-white shadow-md rounded px-8 pt-6 pb-8 mx-4 w-full max-w-[35rem] cursor-pointer'>
+    <Modal  isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className="mr-[4rem] w-full max-w-[450px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+      <div className='bg-white shadow-md rounded px-8 pt-8 pb-8 mx-4'>
         <div className="mb-4 ">
           <label className="block text-grey-darker text-sm font-bold mb-2" for="username">
             Username

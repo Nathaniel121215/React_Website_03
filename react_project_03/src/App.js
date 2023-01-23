@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <MessengerCustomerChat
-    pageId="211853206042532"
+    pageId="115722257804565"
     appId="859517748662771"
   />
       <Navbar/>
