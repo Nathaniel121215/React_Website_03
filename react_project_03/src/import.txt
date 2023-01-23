@@ -2,3 +2,5 @@ command "npm install react-scroll" and "npm install @heroicons/react/outline"
 npm install @heroicons/react
 npm install -D tailwindcss
 npm install react-icons --save
+npm install react-simple-image-slider --save
+npm install react-messenger-customer-chat 
