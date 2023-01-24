@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className='hidden lg:flex pr-4'>
           <button onClick={() =>setModalIsOpen(true)} className='border-none bg-transparent text-black mr-4 font-medium'>Sign In</button>
-          <button onClick={() =>setModalIsOpen(false)} className='text-white px-10 py-3 font-medium bg-[#cc4839] rounded-md hover:bg-[#c0392a]'>Sign Up</button>
+          <button onClick={() =>setModalIsOpen(false)} className='text-white px-10 py-2  font-medium bg-[#cc4839] rounded-md hover:bg-[#c0392a]'>Sign Up</button>
         </div>
         <div onClick={handleNav} className='block lg:hidden'>
             {!nav ? <Bars3BottomRightIcon  className='w-5 sm:w-6 cursor-pointer' /> : <XMarkIcon className='w-5 sm:w-6 cursor-pointer' /> }
@@ -61,7 +61,7 @@ const Navbar = () => {
       </ul>
     </div>
 
-    <Modal  isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className="mr-[4rem] w-full max-w-[450px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+    <Modal  isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className="mr-[4rem] w-full max-w-[450px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] z-0">
       <div className='bg-white shadow-md rounded px-8 pt-8 pb-8 mx-4'>
         <div className="mb-4 ">
           <label className="block text-grey-darker text-sm font-bold mb-2" for="username">
@@ -74,12 +74,11 @@ const Navbar = () => {
             Password
           </label>
           <input className="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="******************"/>
-          <p className="text-red text-xs italic">Please choose a password.</p>
         </div>
-        <div className="flex items-center justify-between">
-          <div className="bg-[#cc4839] hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">Sign In</div>
-          <a className="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
-            Forgot Password?
+        <div className="flex justify-between items-center">
+          <div className="bg-[#cc4839] hover:bg-blue-dark text-white py-2 px-4 w-full max-w-[8rem] rounded text-center cursor-pointer hover:bg-[#c0392a]">Sign In</div>
+          <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
+          Forgot Password?
           </a>
         </div>
 

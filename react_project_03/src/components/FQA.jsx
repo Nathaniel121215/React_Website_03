@@ -14,7 +14,7 @@ const FQA = () => {
           nostrum tempore.
         </p>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-[3rem] pt-4 my-3'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-[1rem]'>
 
           <div className='flex my-3 hover:-translate-y-7 ease-in-out duration-500'>
             <div>

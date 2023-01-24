@@ -6,3 +6,6 @@ npm install react-icons --save
 npm install react-simple-image-slider --save
 npm install react-messenger-customer-chat 
 npm install --save react-modal
+
+
+npm install tw-elements

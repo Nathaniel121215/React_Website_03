@@ -17,6 +17,7 @@
     "react-scroll": "^1.8.9",
     "react-simple-image-slider": "^2.4.1",
     "react-type-animation": "^2.1.2",
+    "tw-elements": "^1.0.0-alpha13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

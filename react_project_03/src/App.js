@@ -6,8 +6,9 @@ import Support from "./components/Support";
 import Pricing from "./components/Pricing";
 import Newsletter from "./components/Newsletter";
 import FQA from "./components/FQA";
+import Contact from "./components/contactus";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import Login from "./components/Login";
+
 function App() {
   return (
     <div>
@@ -21,6 +22,7 @@ function App() {
       <Support/>
       <FQA/>
       <Pricing/>
+      <Contact/>
       <Footer/>
 
 

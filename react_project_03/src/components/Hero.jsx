@@ -1,9 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import courtImg from '../assets/court.jpg'
-import supportImg from '../assets/support.jpg'
 import SimpleImageSlider from "react-simple-image-slider";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 
 
 import img1 from '../assets/img1.jpg';
@@ -12,7 +10,6 @@ import img3 from '../assets/img3.jpg';
 import img4 from '../assets/img4.jpg';
 
 const images = [
-  { url: courtImg },
   { url: img1 },
   { url: img2 },
   { url: img3 },
