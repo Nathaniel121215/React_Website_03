@@ -28,7 +28,7 @@ const Hero = () => {
 
         <SimpleImageSlider
         width={'100%'}
-        height={'100%'}
+        height={'100vh'}
         images={images}
         showBullets={false}
         autoPlay={true}
