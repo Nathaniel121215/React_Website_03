@@ -21,6 +21,7 @@ const Navbar = () => {
   return (
     <>
     <div className='fixed w-full z-50'>
+      
       <div className='h-[60px] sm:h-[80px] px-4 flex justify-between items-center w-full bg-white drop-shadow-lg z-20 relative'>
         <div className='flex items-center'>
           <div className='inline-block'>
@@ -59,9 +60,27 @@ const Navbar = () => {
             <button className='px-8 py-3 font-semibold bg-[#cc4839] rounded-md text-white hover:bg-[#c0392a]'>Sign Up</button>
         </div>
       </ul>
-    </div>
 
-    <Modal  isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className="mr-[4rem] w-full max-w-[450px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] z-0">
+
+      
+    </div>
+    <div className='absolute mt-[4rem] sm:mt-[4.3rem] z-[10]'>
+      <div className={!modalIsOpen ? "bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 fixed z-20 w-full sm:max-w-[350px] left-[-200%] ease-in-out duration-500" :"left-[0] ease-in-out duration-500 bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 fixed w-full sm:mt-4  sm:max-w-[350px] mb-[100rem]"} role="alert">
+          <p className="font-bold">Be Warned</p>
+          <p>Something not ideal might be happening.</p>
+      </div>
+
+    </div>
+    
+
+    <Modal style={{
+    overlay: {
+      backgroundColor: '#2b252459'
+    },
+    content: {
+
+    }
+  }}  isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className=" mr-[4rem] w-full max-w-[450px] absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] z-[50]">
       <div className='bg-white shadow-md rounded px-8 pt-8 pb-8 mx-4'>
         <div className="mb-4 ">
           <label className="block text-grey-darker text-sm font-bold mb-2" for="username">
