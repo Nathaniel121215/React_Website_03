@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
         <p className='text-[1rem] sm:text-xl text-white'>The pioneer of coaching-style review with mock bar exams, helping you realize your potential.</p>
         
-        <div className='grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] max-w-[400px] mx-auto gap-6 mt-5' >
+        <div className='grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] max-w-[400px] mx-auto gap-6 mt-5'>
           <button className='bg-[#cc4839] py-2 px-9 sm:px-12 rounded  text-white mx-auto font-semibold hover:-translate-y-3 ease-in-out duration-500'>Get Started</button>
           <button className='border-2 border-[#cc4839] py-2 px-9 sm:px-12  rounded text-white mx-auto font-semibold hover:-translate-y-3 ease-in-out duration-500'>Learn More</button>
         </div>

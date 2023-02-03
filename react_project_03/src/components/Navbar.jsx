@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className='h-[60px] sm:h-[80px] px-4 flex justify-between items-center w-full bg-white drop-shadow-lg z-20 relative'>
         <div className='flex items-center'>
           <div className='inline-block'>
-            <Link onClick={handleClose} to="/" smooth={true} duration={500} className='text-2xl font-bold mr-4 sm:text-3xl text-[#cc4839] cursor-pointer'>LOGO HERE.</Link>
+            <Link onClick={() =>setNav(false)} to="/" smooth={true} duration={500} className='text-2xl font-bold mr-4 sm:text-3xl text-[#cc4839] cursor-pointer'>LOGO HERE.</Link>
           </div>
           
           <ul className='hidden lg:flex font-medium'>

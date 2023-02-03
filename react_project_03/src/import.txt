@@ -9,3 +9,5 @@ npm install --save react-modal
 
 
 npm install tw-elements
+
+npm install react-messenger-chat-plugin
